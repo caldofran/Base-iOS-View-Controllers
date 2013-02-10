@@ -1,0 +1,3 @@
+[submodule "BaseControllers/EGOTableViewPullToRefresh"]
+	path = BaseControllers/EGOTableViewPullToRefresh
+	url = https://caldofran@github.com/caldofran/EGOTableViewPullRefresh.git
