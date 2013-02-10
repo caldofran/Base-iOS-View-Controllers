@@ -52,6 +52,6 @@
 - (void)viewWillAdjustForKeyboardHidden:(BOOL)keyboardHidden keyboardHeight:(CGFloat)keyboardHeight;
 
 /* Overwrite this method to implement custom behaviour. Call defaultKeyboardAppereanceBehaviourForKeyboardHidden:animationDuration:curve:keyboardHeight: for inside for a default behaviour (moving up the whole view keyboardHeight pixels) */
-- (void)keyboardWillBecomeHidden:(BOOL)keyboardHidden withAnimationDuration:(NSTimeInterval)animationDuration curve:(UIViewAnimationCurve)curve keyboardHeight:(CGFloat)keyboardHeight;
+- (void)keyboardWillBecomeHidden:(BOOL)keyboardHidden withAnimationDuration:(NSTimeInterval)animationDuration curve:(UIViewAnimationOptions)curve keyboardHeight:(CGFloat)keyboardHeight;
 
 @end

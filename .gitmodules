@@ -1,6 +1,0 @@
-[submodule "BaseControllers/Vendor/JSProgressHUD"]
-	path = BaseControllers/Vendor/JSProgressHUD
-	url = https://github.com/JaviSoto/JSProgressHUD
-[submodule "BaseControllers/Vendor/EGOTableViewPullRefresh"]
-	path = BaseControllers/Vendor/EGOTableViewPullRefresh
-	url = https://github.com/enormego/EGOTableViewPullRefresh

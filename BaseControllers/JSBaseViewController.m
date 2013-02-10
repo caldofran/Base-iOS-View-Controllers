@@ -200,7 +200,7 @@
     // Empty default implementation
 }
 
-- (void)keyboardWillBecomeHidden:(BOOL)keyboardHidden withAnimationDuration:(NSTimeInterval)animationDuration curve:(UIViewAnimationCurve)curve keyboardHeight:(CGFloat)_keyboardHeight
+- (void)keyboardWillBecomeHidden:(BOOL)keyboardHidden withAnimationDuration:(NSTimeInterval)animationDuration curve:(UIViewAnimationOptions)curve keyboardHeight:(CGFloat)_keyboardHeight
 {
     curve |= UIViewAnimationOptionBeginFromCurrentState;
     
@@ -213,7 +213,7 @@
 
 - (void)keyboardWillBecomeHidden:(BOOL)keyboardHidden withNotificationInfo:(NSDictionary *)notificationInfo
 {
-    UIViewAnimationCurve animationCurve; [[notificationInfo valueForKey:UIKeyboardAnimationCurveUserInfoKey] getValue:&animationCurve];
+    UIViewAnimationOptions animationCurve; [[notificationInfo valueForKey:UIKeyboardAnimationCurveUserInfoKey] getValue:&animationCurve];
     
     CGRect keyboardFrameAtEndOfAnimation; [[notificationInfo valueForKey:UIKeyboardFrameEndUserInfoKey] getValue:&keyboardFrameAtEndOfAnimation];
     CGFloat keyboardHeight = keyboardFrameAtEndOfAnimation.size.height;

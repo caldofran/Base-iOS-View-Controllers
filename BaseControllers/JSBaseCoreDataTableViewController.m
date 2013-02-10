@@ -103,7 +103,7 @@
 
 - (NSFetchRequest *)fetchRequest
 {
-    NSLog(@"Unimplemented required method %s in class %@", (char *)_cmd, NSStringFromClass([self class]));
+    NSLog(@"Unimplemented required method %s in class %@", (char *)sel_getName(_cmd), NSStringFromClass([self class]));
     [self doesNotRecognizeSelector:_cmd];
     
     return nil;

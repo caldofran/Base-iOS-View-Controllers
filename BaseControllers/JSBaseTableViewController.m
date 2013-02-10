@@ -82,7 +82,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSLog(@"[%@] Incomplete method implementation: %s.", NSStringFromClass([self class]), (char *)_cmd);
+    NSLog(@"[%@] Incomplete method implementation: %s.", NSStringFromClass([self class]), (char *)sel_getName(_cmd));
     [self doesNotRecognizeSelector:_cmd];
 
     return 0;
