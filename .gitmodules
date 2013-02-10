@@ -1,3 +1,6 @@
 [submodule "BaseControllers/EGOTableViewPullToRefresh"]
 	path = BaseControllers/EGOTableViewPullToRefresh
 	url = https://caldofran@github.com/caldofran/EGOTableViewPullRefresh.git
+[submodule "BaseControllers/JSProgressHUD"]
+	path = BaseControllers/JSProgressHUD
+	url = https://caldofran@github.com/caldofran/JSProgressHUD.git
